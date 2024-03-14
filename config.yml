@@ -4,9 +4,9 @@
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://decap-oauth-vercel.vercel.app
   auth_endpoint: /api/auth
-media_folder: public/content/images
-public_folder: /public/content/images
-collections:
+  media_folder: public/content/images
+ public_folder: /public/content/images
+ collections:
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
