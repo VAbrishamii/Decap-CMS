@@ -1,0 +1,14 @@
+backend:
+  name: github
+  repo: Vabrishamii/Decap-CMS
+  branch: main
+
+collections:
+  - name: posts
+    label: Posts
+    folder: _posts
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Body", name: "body", widget: "markdown"}
