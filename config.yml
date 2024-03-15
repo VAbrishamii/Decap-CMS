@@ -1,5 +1,3 @@
- ---
- implicit_key: value
  backend:
   name: github
   repo: Vabrishamii/Decap-CMS
