@@ -6,7 +6,6 @@ backend:
   auth_endpoint: /api/auth
 media_folder: public/content/images
 public_folder: /public/content/images
-media_library: true
 collections:
   - name: "blog"
     label: "Blog"
