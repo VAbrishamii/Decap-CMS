@@ -1,4 +1,4 @@
- backend:
+backend:
   name: github
   repo: Vabrishamii/Decap-CMS
   branch: main # Branch to update (optional; defaults to master)
@@ -7,15 +7,15 @@
   media_folder: public/content/images
   public_folder: /public/content/images
   collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
-    create: true
-    slug: "{{year}}-{{month}}-{{slug}}"
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+    - name: "blog"
+      label: "Blog"
+      folder: "content/blog"
+      create: true
+      slug: "{{year}}-{{month}}-{{slug}}"
+      editor:
+        preview: false
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Description", name: "description", widget: "string" }
+        - { label: "Body", name: "body", widget: "markdown" }
